@@ -1,0 +1,66 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+nav {
+  background-color: #c786c7;
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0 0.5em;
+  color: blue;
+  font-weight: 700;
+}
+
+main {
+  width: 750px;
+  margin: 0 auto;
+}
+
+h3,
+h2,
+p {
+  margin: 1em 0;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: blue;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+hr {
+  background-color: #000;
+  margin: 1em 0;
+}
+
+footer {
+  margin-top: 2em;
+  background-color: #9090e7;
+  padding: 0.5em;
+  display: flex;
+  justify-content: center;
+}
+
+footer p {
+  font-weight: 500;
+}
